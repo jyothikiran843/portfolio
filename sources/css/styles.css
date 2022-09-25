@@ -1,3 +1,16 @@
+.icons{
+    height: 48px;
+    width: 48px;
+}
+
+
+.about-text{
+    line-height: 180%;
+    font-stretch: narrower;
+    font-size: large;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 540;
+}
 section {
     scroll-behavior: smooth;
 }
@@ -87,4 +100,5 @@ section {
 .content-about {
     position: relative;
     margin-top: 30px;
+    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("../images/background.jpg");
 }
