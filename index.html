@@ -1,51 +1,81 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Jyothi Kiran's Portfolio"/>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta name="keywords" content="Jyothi Kiran,RGUKT Student,programmer,developer rgukt"/>
+    <meta name="description" content="Jyothi Kiran's Portfolio" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="keywords" content="Jyothi Kiran,RGUKT Student,programmer,developer rgukt" />
     <meta name="author" content="Jyothi Kiran">
-    <meta name="theme-color" content="#430d53"/>
-    <meta name="product" content="A Portfolio site"/>
+    <meta name="theme-color" content="#430d53" />
+    <meta name="product" content="A Portfolio site" />
     <meta http-equiv="refresh" content="50">
-    <meta property="og:url"                content="" />
-    <meta property="og:type"               content="website" />
-    <meta property="og:title"              content="Jyothi kiran's portfolio" />
-    <meta property="og:description"        content="Portfolio website of jyothikiran" />
-    <meta property="og:image"              content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Jyothi kiran's portfolio" />
+    <meta property="og:description" content="Portfolio website of jyothikiran" />
+    <meta property="og:image"
+        content="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f9599671-3f0b-47fd-9d5a-f53a350cd54c/dc5dvw5-16d6aeae-5f55-46fd-bb98-381ee8f7154f.jpg/v1/fill/w_1016,h_787,q_70,strp/cse_logo_by_gangadhar666_dc5dvw5-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2Y5NTk5NjcxLTNmMGItNDdmZC05ZDVhLWY1M2EzNTBjZDU0Y1wvZGM1ZHZ3NS0xNmQ2YWVhZS01ZjU1LTQ2ZmQtYmI5OC0zODFlZThmNzE1NGYuanBnIiwiaGVpZ2h0IjoiPD03OTMiLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS53YXRlcm1hcmsiXSwid21rIjp7InBhdGgiOiJcL3dtXC9mOTU5OTY3MS0zZjBiLTQ3ZmQtOWQ1YS1mNTNhMzUwY2Q1NGNcL2dhbmdhZGhhcjY2Ni00LnBuZyIsIm9wYWNpdHkiOjk1LCJwcm9wb3J0aW9ucyI6MC40NSwiZ3Jhdml0eSI6ImNlbnRlciJ9fQ.wP7LKmuRexpeTWJPS95h7rUdqbQpqtDYyGX2UiUFLP8" />
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="#" />
     <meta name="twitter:creator" content="" />
-    <meta property="og:url"                content="" />
-    <meta property="og:type"               content="website" />
-    <meta property="og:title"              content="Jyothi kiran's portfolio" />
-    <meta property="og:description"        content="Portfolio website of jyothikiran" />
-    <meta property="og:image"              content="" />
-    <link rel="stylesheet" type="text/css" href="sources/css/styles.css">
+    <meta property="og:url" content="" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Jyothi kiran's portfolio" />
+    <meta property="og:description" content="Portfolio website of jyothikiran" />
+    <meta property="og:image"
+        content="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f9599671-3f0b-47fd-9d5a-f53a350cd54c/dc5dvw5-16d6aeae-5f55-46fd-bb98-381ee8f7154f.jpg/v1/fill/w_1016,h_787,q_70,strp/cse_logo_by_gangadhar666_dc5dvw5-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2Y5NTk5NjcxLTNmMGItNDdmZC05ZDVhLWY1M2EzNTBjZDU0Y1wvZGM1ZHZ3NS0xNmQ2YWVhZS01ZjU1LTQ2ZmQtYmI5OC0zODFlZThmNzE1NGYuanBnIiwiaGVpZ2h0IjoiPD03OTMiLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS53YXRlcm1hcmsiXSwid21rIjp7InBhdGgiOiJcL3dtXC9mOTU5OTY3MS0zZjBiLTQ3ZmQtOWQ1YS1mNTNhMzUwY2Q1NGNcL2dhbmdhZGhhcjY2Ni00LnBuZyIsIm9wYWNpdHkiOjk1LCJwcm9wb3J0aW9ucyI6MC40NSwiZ3Jhdml0eSI6ImNlbnRlciJ9fQ.wP7LKmuRexpeTWJPS95h7rUdqbQpqtDYyGX2UiUFLP8" />
     <link rel="stylesheet" type="text/css" href="sources/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="sources/css/styles.css">
     <script src="sources/js/jquery.js"></script>
     <script src="sources/js/bootstrap.bundle.min.js"></script>
+    <link rel="shortcut icon" href="sources/images/logo.jpg" type="image/x-icon">
     <title>Jyothi Kiran's Portfolio</title>
 </head>
+
 <body>
     <nav class="sticky-top main-nav navbar navbar-expand-sm navbar-light bg-white container-fluid">
         <ul class="navbar-nav ml-auto text-dark">
-            <li class="nav-item"><a class="nav-link" href="">About me</a></li>
-            <li class="nav-item"><a class="nav-link" href="">Skills</a></li>
-            <li class="nav-item"><a class="nav-link" href="">Projects</a></li>
-            <li class="nav-item"><a class="nav-link" href="">Contact me</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About me</a></li>
+            <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact me</a></li>
         </ul>
     </nav>
-    <div id="mySidenav" class="sidenav">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="#">About me</a>
-        <a href="#">Skills</a>
-        <a href="#">Clients</a>
-        <a href="#">Projects</a>
-      </div>
-      <span id="opener" class="sticky-top" onclick="openNav()"><img src="sources/images/menu.png" alt="menu" height="30px" width="30px"></span>
-      <script src="sources/js/js.js"></script>
+    <section>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">About me</a>
+            <a href="#">Skills</a>
+            <a href="#">Clients</a>
+            <a href="#">Projects</a>
+        </div>
+        <span id="opener" class="sticky-top" onclick="openNav()"><img src="sources/images/menu.png" alt="menu" height="30px"
+                width="30px"></span>
+        <div id="about" class="content-about p-2 container-fluid">
+            <img class="bg position-absolute" src="sources/images/background.jpg" alt="">
+            <div class="row text-center mt-5 text-black">
+                <div class="col-md-4 align-items-end" id="image-me">
+                    <img src="sources/images/icon.png" alt="" class="rounded d-inline" height="200px" width="200px">
+                </div>
+                <div class="col-md-6 bg-lighte rounded" id="content-about-me">
+                    <h3 class="p-2 font-weight-bolder">About me</h3>
+                    <p class="p-2 d-inline text-dark">This is Jyothi Kiran Thammana and i would like to share myself through this page such as my goals,achievements,skills and  I am 20 as of 2022 and currently pursuing Engineering 3rd Year in RGUKT-Nuzvid in CSE stream.Insterested in Cyber Security, Ethical hacking, would like to join a Network Security Providing Company to lead my career. </p>
+                </div>
+            </div>
+        </div>
+        <div id="skills">
+            
+        </div>
+        <div id="projects">
+
+        </div>
+        <div id="contact">
+
+        </div>
+    </section>
+    <script src="sources/js/js.js"></script>
 </body>
+
 </html>
