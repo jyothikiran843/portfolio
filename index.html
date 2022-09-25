@@ -37,19 +37,19 @@
 <body>
     <nav class="sticky-top main-nav navbar navbar-expand-sm navbar-light bg-white container-fluid">
         <ul class="navbar-nav ml-auto text-dark">
-            <li class="nav-item"><a class="nav-link" href="#about">About me</a></li>
-            <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
-            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-            <li class="nav-item"><a class="nav-link" href="#contact">Contact me</a></li>
+            <li class="nav-item"><a class="nav-link navs" href="#about">About me</a></li>
+            <li class="nav-item"><a class="nav-link navs" href="#skills">Skills</a></li>
+            <li class="nav-item"><a class="nav-link navs" href="#projects">Certifications</a></li>
+            <li class="nav-item"><a class="nav-link navs" href="#contact">Contact me</a></li>
         </ul>
     </nav>
     <section>
         <div id="mySidenav" class="sidenav">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <a href="#">About me</a>
-            <a href="#">Skills</a>
-            <a href="#">Certifications</a>
-            <a href="#">Contact me</a>
+            <a href="#about">About me</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Certifications</a>
+            <a href="#contact">Contact me</a>
         </div>
         <span id="opener" class="sticky-top" onclick="openNav()"><img src="sources/images/menu.png" alt="menu" height="30px"
                 width="30px"></span>
@@ -98,17 +98,20 @@
             <div class="container-fluid">
                 <h1 class="text-center">Other Certifications & Achievements</h1>                
                 <div class="row">
+                    <div class="col-md-4"></div>
                     <div class="col-md-4">
-                        <h3>Python Certification</h3>
+                        <h3 class="d-inline text-center">Python Certification</h3>
                         <embed src="sources/python.pdf" width="400px" height="500px"/>
                     </div>
+                    <div class="col-md-4"></div>
+
                 </div>
 
             </div>
         </div>
         <div id="contact">
             <div class="container p-5">
-                <h1 class="text-center">Contact me</h1>                
+                <h1 class="text-center p-3">Contact me</h1>                
                 <div class="row p-3">
                     <div class="col-md-4 text-center">
                         <a href="https://github.com/jyothikiran843" target="_blank"><img src="sources/images/github.gif" alt="github" class="icons"></a>

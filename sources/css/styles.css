@@ -1,8 +1,19 @@
+body{ 
+    /* background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("../images/bg.jpg") no-repeat center center fixed;  */
+    /* background-color: #262626; */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
 .icons{
     height: 48px;
     width: 48px;
 }
-
+.navs{
+    font-size: larger;
+}
 
 .about-text{
     line-height: 180%;
